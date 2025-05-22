@@ -1,0 +1,19 @@
+{
+  "name": "orbital_systems",
+  "version": "1.0.0",
+  "description": "Orbitall Systems Backend Apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suyog chavan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.0",
+    "pg": "^8.15.5"
+  }
+}
