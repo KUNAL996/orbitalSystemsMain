@@ -15,7 +15,7 @@ const custReg = async(req, res)=>{
             [customerId, customerName, location, address, contactPerson, contactNumber, email, 
             department, gstNumber, panNumber, city, state, country, stateCode, status], (err, result)=>{
             if (err){
-                return res.status(201).json({'Message': 'Customer Already Exists ', 'Error':err.message})
+                return res.status(201).json({'Message': 'Customer Already Exists', 'Error':err.message})
             }
             return res.status(201).json({'Message': 'Customer Registered Succesfully'})
         })
